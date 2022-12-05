@@ -1,4 +1,3 @@
-# Calculator
 from kivy.app import App
 from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
@@ -41,3 +40,4 @@ class myApp(App):
         root_widget.add_widget(button_grid)
         root_widget.add_widget(clear_button)
         return root_widget
+myApp().run()
